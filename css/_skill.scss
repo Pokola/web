@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+#main.skillMain { padding: 80px 250px 30px;}
+.skillbox{ border-radius: 40px; z-index: 3; background: #edede6; padding: 30px;
+  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+	ul{ margin-left: 20px; text-align: left; line-height: 3; font-size: 20px; }
+}

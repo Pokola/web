@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.clockbox{width:200px;height:200px; position: fixed; top: 10px; right: 10px;}
+.clockback{ width: 200px; height: 200px; background: url(../img/clock.jpg) no-repeat; border-radius: 50%; overflow: hidden; position: relative;}
+#hand{ width:12px;height:12px; position:absolute;left:94px;top:94px;}
+#hour{ width:4px; height:45px;background:#000; position:absolute;left:4px;bottom:6px; -webkit-transform-origin:bottom;}
+#min{width:2px;height:60px;background:#666; position:absolute;left:5px;bottom:6px;-webkit-transform-origin:bottom;}
+#sec{width:2px;height:75px;background:red; position:absolute;left:5px;bottom:6px;-webkit-transform-origin:bottom;}
+#center{height:12px;border-radius:9px;background:#000; position:relative;}

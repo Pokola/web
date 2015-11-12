@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.tit { font: 30px/2 '微软雅黑'; padding-top: 70px; text-indent: 40px;}
+.worksbox { z-index: 3; padding-top: 30px; }
+.worksbox .exp{ width:640px; height:400px; margin: 0 auto; overflow:hidden; position:relative;}
+.worksbox .exp a{position:absolute; width:40px; height:100px; text-align:center; line-height:100px; text-decoration:none; color:#fff; font-size: 40px; font-weight: bold; top:50%; margin-top:-50px; background:rgba(0,0,0,0.5); z-index:2; display:none;}
+.worksbox .exp a:hover{background:rgba(0,255,204,0.5);}
+#prev{left:0;}
+#next{right:0;}
+.exp ul{overflow:hidden; position:absolute; top:0; left:0;}
+.exp li{float:left; width:640px;}
+.exp li img{width:100%;}
+.exp ol{ width:250px; position:absolute; bottom:20px; left:50%; margin-left:-125px; overflow: hidden;}
+.exp ol li{ width: 30px; height:30px; background:rgba(0,0,0,0.5); border-radius:50%; margin: 10px; cursor:pointer; float: left;}
+.exp ol li.on{ background:rgba(0,255,204,0.5);}
+
+.choosebtn { width:640px; margin: 0 auto; padding-top: 20px; overflow: hidden;}
+.choosebtn li{ height:30px; background:rgba(102,102,102,1); border-radius:10px; line-height: 30px; font-size: 18px; font-family: "微软雅黑"; color: #fff; margin: 10px 13px 0 0; padding: 0 10px; cursor:pointer; float: left;}
+.choosebtn li:hover{background:rgba(0,255,204,0.5); color: #000;}
+

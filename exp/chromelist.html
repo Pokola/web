@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Chrome菜单效果</title>
+<style>
+    *{ margin:0; padding:0; list-style:none;}
+    #ul1{ width:510px; margin:0 auto; zoom:1; position: relative}
+    #ul1:after { content: ''; display: block; clear: both;}
+    #ul1 li{ width:150px; height:150px; float:left; margin:10px; background:#ccc; cursor:pointer; }
+    #ul1 li span{ width:100%; height:100%; line-height:150px; text-align:center; font-size:100px; font-weight:bold; position:absolute; left:0; top:0; color:blue;}
+    .tit { text-align: center; font: 30px/2 '微软雅黑'; padding-top: 30px;}
+</style>
+<script src="../js/move.js"></script>
+<script src="../js/chromelist.js"></script>
+</head>
+<body>
+<div class="tit">拖拽每个方块排序：</div>
+<ul id="ul1">
+	<li><span>1</span></li>
+    <li><span>2</span></li>
+    <li><span>3</span></li>
+    <li><span>4</span></li>
+    <li><span>5</span></li>
+    <li><span>6</span></li>
+    <li><span>7</span></li>
+    <li><span>8</span></li>
+    <li><span>9</span></li>
+</ul>
+</body>
+</html>

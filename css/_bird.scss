@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+$birdR : 100px;
+.bird{ position: absolute; left: 50px; top: 600px; width:$birdR; height:$birdR; cursor:pointer;
+	.big{ position:absolute; top:0; left:0; border-radius:50%; border-color:transparent transparent #d72928 #db3e3d; border-width:$birdR/2; border-style:solid; transform:rotate(45deg); -webkit-transform:rotate(45deg); -moz-transform:rotate(45deg); transition:0.5s; -webkit-transition:0.5s; -moz-transition:0.5s; }
+	.middle{ position:absolute; top:10%; left:10%; border-radius:50%; border-color:#f8d245 transparent #f2f2f2 #fff; border-style:solid; border-width:$birdR/2.5; transform:rotate(45deg); -webkit-transform:rotate(45deg); -moz-transform:rotate(45deg); transition:0.5s; -webkit-transition:0.5s; -moz-transition:0.5s; }
+	.small{ position:absolute; top:30%; left:30%; border-radius:50%; border-color:transparent #f7a703 transparent transparent; border-style:solid; border-width:$birdR/5; transform:rotate(45deg); -webkit-transform:rotate(45deg); -moz-transform:rotate(45deg); transition:0.5s; -webkit-transition:0.5s; -moz-transition:0.5s;
+		&:before{ content:""; background:#000; width:$birdR/10; height:$birdR/10; border-radius:50%; position:absolute; top:-$birdR/20; right:$birdR/10; }
+	}
+	&:hover {
+		.big{ transform:rotate(225deg); -webkit-transform:rotate(225deg); -moz-transform:rotate(225deg); border-color:transparent transparent #1fe8b6 #16d7a7;}
+		.middle{ transform:rotate(-135deg); -webkit-transform:rotate(-135deg); -moz-transform:rotate(-135deg); border-color:transparent #f8d245 #fff #f2f2f2;}
+		.small{ transform:rotate(135deg); -webkit-transform:rotate(135deg); -moz-transform:rotate(135deg); border-color:transparent #f7a703 transparent transparent;}
+	}
+}

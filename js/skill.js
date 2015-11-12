@@ -17,5 +17,8 @@ window.onload = function(){
 		oSec.style.WebkitTransform="rotate("+(iSec*360/60)+"deg)";
 		oMin.style.WebkitTransform="rotate("+(iMin*360/60)+"deg)";
 		oHour.style.WebkitTransform="rotate("+(iHour*360/12)+"deg)";
+		oSec.style.MozTransform="rotate("+(iSec*360/60)+"deg)";
+		oMin.style.MozTransform="rotate("+(iMin*360/60)+"deg)";
+		oHour.style.MozTransform="rotate("+(iHour*360/12)+"deg)";
 	}
 };
